@@ -1,0 +1,186 @@
+@import url("reset.css");
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font:large 2rem arial;
+    background-color: #000000;
+    background-size: 6rem;
+    background-image:url("../images/spider.JPG");
+    background-position: top;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 3rem;
+    padding: 8%;
+    line-height: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0b0a0a;
+    border-radius: 10%;
+    max-width: 500px;
+    width: 500px;
+    padding: 4rem;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+    padding: 10%;
+    text-align: center;
+    align-items: center;
+    color: white;
+   
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .5rem ;
+    font: caption;
+    color:white;
+}
+   
+
+figure img {
+    border-radius: 12rem;
+    border:solid .5rem #760101da;
+    width: 12rem;
+    height: 12rem;
+    object-fit: contain cover;
+    margin-bottom: .5rem;
+
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link-btn {
+    background-color: #f5e9e9;
+    color:#000000;
+    padding: 15px;
+    border-radius: 5rem 5rem 5rem;
+    transition: 0.4s ease;
+    border: 15px double #460303;
+   
+}
+
+.link-btn:hover {
+    background-color:rgba(4, 0, 10, 0.748) ;
+    border: thick double rgb(253, 244, 244);
+    color: rgb(219, 214, 214);
+}
+
+/* Media query for horizontal layout on larger screens */
+@media (min-width: 500px){
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font:large 2rem arial;
+        background-color: #000000;
+        background-size: 6rem;
+        background-image:url("../images/spider.JPG");
+        background-position: center;
+        display: flex;
+        justify-content:center;
+        align-items: start;
+    
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0b0a0a;
+        border-radius: 25%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 4rem;
+        text-align: center;
+    }
+    
+    
+    header h1 {
+        font-size: 4rem;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        padding: 10%;
+        text-align: center;
+        align-items: center;
+        color: white;
+        justify-content: center;
+       
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: .5rem ;
+        font: caption;
+        color:white;
+    }
+       
+    
+    figure img {
+        border-radius: 1rem;
+        border: dashed 3rem #760404;
+        width: 18rem;
+        height: 18rem;
+        object-fit:contain;
+        margin:1rem 1rem 1rem 1rem;
+       
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .link-btn {
+        background-color: #f5e9e9;
+        color:#000000;
+        padding: 15px;
+        border-radius: 5rem 5rem 5rem;
+        transition: 0.4s ease;
+        border: 15px double #460303;
+       
+    }
+    
+    .link-btn:hover {
+        background-color:rgba(4, 0, 10, 0.748) ;
+        border: thick double rgb(253, 244, 244);
+        color: rgb(219, 214, 214);
+    }
+    
+
+
+
+
+
+}
+  
