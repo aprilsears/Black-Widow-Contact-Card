@@ -10,11 +10,10 @@ body {
     font:large 2rem arial;
     background-color: #000000;
     background-size: 6rem;
-    background-image:url("../images/spider.JPG");
+    background-image:url("../images/349380-3840x2160-desktop-4k-black-widow-background-image.jpg");
     background-position: center;
     display: flex;
     justify-content:center;
-    height: 3rem;
     padding: 8%;
     line-height: 1;
 }
@@ -27,7 +26,8 @@ main {
     border-radius: 10%;
     max-width: 500px;
     width: 500px;
-    padding: 4rem;
+    padding: 1%;
+    margin-top: -1rem;
     text-align: center;
 }
 
@@ -94,17 +94,17 @@ nav {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        
     }
     
     body {
         font:large 2rem arial;
         background-color: #000000;
         background-size: 6rem;
-        background-image:url("../images/spider.JPG");
+        background-image:url("../images/349380-3840x2160-desktop-4k-black-widow-background-image.jpg");
         background-position: center;
         display: flex;
         justify-content:center;
-        align-items: start;
     
     }
     
@@ -112,8 +112,8 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #0b0a0a;
-        border-radius: 25%;
+        background-color: #000000d7;
+        border-radius: 50%;
         min-width: 500px;
         min-height: 500px;
         padding: 4rem;
@@ -123,13 +123,9 @@ nav {
     
     header h1 {
         font-size: 4rem;
-        margin-bottom: .5rem;
-        margin-top: .5rem;
-        padding: 10%;
-        text-align: center;
-        align-items: center;
+        padding: 5%;
         color: white;
-        justify-content: center;
+        align-self: center;
        
     }
     
@@ -139,23 +135,23 @@ nav {
         align-items: center;
         justify-content: center;
         margin-bottom: .5rem ;
-        font: caption;
+        padding: .5rem;
         color:white;
     }
        
     
     figure img {
         border-radius: 1rem;
-        border: dashed 3rem #760404;
-        width: 18rem;
-        height: 18rem;
-        object-fit:contain;
+        border:solid #460303;
+        width: 12rem;
+        height: 12rem;
         margin:1rem 1rem 1rem 1rem;
        
     }
     nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-self: center;
         gap: 1rem;
         margin: 1rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
